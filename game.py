@@ -104,7 +104,8 @@ def play_round(settings):
                 break
             tries_left -= 1
             if tries_left == 0:
-                solution = " ".join(str(i + 1) for i in puzzle["solution"])
+                sep = t(lang, "index_sep")
+                solution = sep.join(str(i + 1) for i in puzzle["solution"])
                 _print(t(lang, "wrong", solution=solution))
                 snd.incorrect()
             else:

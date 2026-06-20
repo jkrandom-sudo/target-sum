@@ -36,6 +36,7 @@ STRINGS = {
         "solver": "solver",
         "learner": "learner",
         "lost": "lost",
+        "index_sep": " ",
     },
     "zh": {
         "title": "目标求和",
@@ -72,6 +73,7 @@ STRINGS = {
         "solver": "解题者",
         "learner": "学习者",
         "lost": "迷路",
+        "index_sep": " ",
     },
 }
 
